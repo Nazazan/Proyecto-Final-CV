@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+}
+
+img {
+    height: 10vw;
+    width: 10vw;
+    clip-path: circle(50%);
+    border-radius: 100%;
+    box-shadow: 10px 10px black;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-family: Arial, Verdana, sans-serif ;
+    font-size: 3.3vw;
+    color: #4d4d4d;
+    line-height: 0.9;
+    text-shadow: 0px 0px 10px #ff6600;
+}
+
+h2 {
+    font-family: Arial, Verdana, sans-serif ;
+    font-size: 2.1vw;
+    color: #4d4d4d;
+    text-decoration: underline;
+    line-height: 0.9;
+    margin: 10px;
+}
+
+h3 {
+    font-family: Arial, Verdana, sans-serif ;
+    font-size: 1.5vw;
+    color: #4d4d4d;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif ;
+    font-size: 1.3vw;
+    color: black;
+    line-height: 0.9;
+    margin: 5px;
+}
+
+.item1 { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.item3 { 
+    text-align: justify;
+}
+
+.item3 h2 {
+    text-align: center;
+}
+
+.item4 { 
+    text-align: left;
+    width: 50%;
+}
+.item5 { 
+    text-align: left;
+    width: 50%
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #ffbb99;
+  padding: 30px 30px 0 30px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: #ffbb99;
+    padding: 0 30px 30px 30px;
+}
+
+.flex-container1 > div {
+    background-color: #ffddcc;
+    padding: 20px;
+}
+
+.flex-container2 > div {
+    background-color: #ffddcc;
+    padding: 20px;
+}
